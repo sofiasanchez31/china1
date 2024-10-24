@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	background-color:firebrick;
+	
+}
+body{
+	width: 1000px;
+	height: 1000px;
+	background-color: skyblue;
+	margin: auto;
+}
+header{
+	width: 1000px;
+	height: 200px;
+	background-color:crimson;
+}
+nav{
+	width: 1000px;
+	height: 50px;
+	background-color: ruby;
+}
+article{
+	width: 800px;
+	height: 700px;
+	background-color: white;
+    float: left;
+}
+
+aside{
+	width: 200px;
+	height: 700px;
+	background-color:gold;
+	float: left;
+}
+footer{
+	width: 1000;
+	height: 50;
+	background-color: violet;
+	float: left;
+}
+ /*BARRA DE NAVEGACION*/
+nav a{
+	text-decoration: none;
+	color: black;
+	font-size: 23px;
+	font-family: black;
+}
+
+nav li{
+	display: inline-block;
+	padding: 12px 5px;
+	box-shadow: 0px 0px 20px #000;
+	color: white;
+
+}
+nav li:hover{
+	background-color: #fff;
+	color: red;
+	box-shadow: 0px 0px 30px #fff;
+    transition: 0.8s;
+}
+ nav ul{
+ 	text-align: center;
+ }
+
+/*REDES SOCIALES*/
+.redes ul{
+	list-style: none;
+	text-align: center;
+}
+.redes ul li{
+	display: inline-block;
+}
+
+.redes ul li img{
+	width: 30px;
+}
+
+.redes ul li a{
+	display: inline-block;
+	padding: 20px 2px;
+	transition: all 0.5s;
+}
+
+.redes ul li .google{
+	background-color:;
+}
+
+.redes ul li .face{
+	background-color:;
+
+}
+
+.redes ul li .x{
+	background-color:;
+
+}
+
+.redes ul li .instagram{
+	background-color:;
+}
+
+.redes ul li .whatsappweb{
+	background-color:;
+
+}
+
+.redes ul li a:hover{
+	background-color:paleturquoise ;
+	box-shadow: 0 0 30px black;
+}
+
+
